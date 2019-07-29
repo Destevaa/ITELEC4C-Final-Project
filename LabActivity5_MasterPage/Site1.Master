@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LabActivity5_MasterPage.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Main2.css" rel="stylesheet" />
+
+    <link href="Styles/footer.css" rel="stylesheet" />
+
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+        <title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<script src="js/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="wrapper"></div>
+
+        <!--
+            <div class="menu">
+                <ul>
+                    <li> <a href ="Default.aspx">Home</a></li>
+                    <li> <a href ="Me.aspx">Me</a></li>
+                    <li> <a href ="Family.aspx">Family</a></li>
+                    <li> <a href ="Friends.aspx">Friends</a></li>
+                    </ul>
+             </div>
+        -->
+
+
+        <div id="nav">
+	  <a href="default.aspx"class="navbar-brand navbar-link" href=""><img src="images/logo2.png" id="logo"></a>
+        <div class="container">
+            <div class="pull-left">
+                <div id="logo">
+
+                </div>
+            </div>
+            <div class="pull-right">
+                <ul id="navigation">
+                    <li><a href="default.aspx">HOME</a></li>
+                    <li><a href="me.aspx">ME, MYSELF, AND I</a></li>
+                    <li><a href="family.aspx">MI FAMILIA</a></li>
+                    <li><a href="friends.aspx">BARKADA</a></li>
+                    <li><a href="Favorites.aspx">FAVORITES</a></li>
+                    <li><a href="Signup.aspx">SIGN-UP</a></li>
+                    <li><a href="ViewAll.aspx">VIEW ALL</a></li>
+                    </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+            <div class="clear"></div>
+
+
+        
+
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+            </asp:ContentPlaceHolder>
+
+            <body>
+    <br>
+	<br></br><br></br><br></br><br></br><br></br>
+	</body>
+        </div>
+
+        <div class="clear"></div>
+
+
+        <footer>
+                  <br>
+
+         <p class="follow">FOLLOW ME</p>
+         <img class="footdog" src="images/mrx.png" alt="">
+          <div class="container1">
+		
+		<ul class="social">
+
+			<li class="facebook"><a href="https://www.facebook.com/akaninjamoves" class="entypo-facebook"></a></li>
+			<li class="twitter"><a href="https://www.twitter.com/Destevaaa" class="entypo-twitter"></a></li>
+			<li class="dribbble"><a href="#" class="entypo-dribbble"></a></li>
+			<li class="behance"><a href="#" class="entypo-behance"></a></li>
+			<li class="linked-in"><a href="#" class="entypo-linkedin"></a></li>
+
+		</ul>
+            
+			</div>  
+			
+         
+       
+         <div class="email"></div><br><br><br><br><br>
+			
+         <br><br><br><br><br><br><hr><br><br>
+         
+        
+         <div class="foot">
+             <p class="foot1"> ©2019 Darryl Diego S. Esteva of 4IT-H. Developer of Resident Evil 2: Remake. All rights reserved<p>
+         </div>
+    </footer>
+
+
+    </form>
+
+
+
+
+
+</body>
+</html>

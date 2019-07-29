@@ -1,0 +1,434 @@
+﻿
+
+
+body {
+    font-family: 'roboto', sans-serif;
+    background-image: url('../images/residentEvil2.png');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+#nav {
+    background: #1a1a1a;
+    box-shadow: inset 0 -1px #1a1a1a;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    top: 0;
+    line-height: 60px;
+}
+
+#logo {
+    max-height: 90px;
+    margin-right: 10px;
+    margin-top: -10px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+    #logo a {
+        text-decoration: none;
+    }
+
+#navigation {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+    #navigation li, #navigation li a {
+        display: block;
+    }
+
+    #navigation li {
+        float: left;
+    }
+
+        #navigation li.active a, #navigation li a:hover {
+            box-shadow: inset 0px -3px white;
+        }
+
+        #navigation li a {
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+            transition: all .4s;
+        }
+
+.imgheader {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center top !important;
+    min-height: 400px !important;
+    width: 100% !important;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top-social {
+    background: #c47b4e;
+    height: 100%;
+}
+
+.srfx {
+    margin-bottom: 30px;
+}
+
+#timer {
+    background: #d0dbe1;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#timer-inner {
+    display: inline-block;
+    overflow: hidden;
+}
+
+    #timer-inner > h2 {
+        margin: 0 0 30px;
+        font-size: 50px;
+    }
+
+.hms {
+    display: block;
+    float: left;
+    padding: 50px 0;
+    margin: 0 10px;
+    background: #222;
+    color: #fff;
+    width: 200px;
+    font-size: 60px;
+    border-radius: 5px;
+}
+
+    .hms h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+#main {
+    padding: 60px 0;
+}
+
+    #main img {
+        max-width: 100%;
+    }
+
+.prod {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.bread-tag {
+    cursor: pointer;
+}
+
+    .bread-tag:hover {
+        color: #999;
+    }
+
+.prod-title-price {
+    border-bottom: 1px solid #ddd;
+}
+
+.prod-title {
+    margin: 0 0 0px;
+    padding: 0px 0 10px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.prod-info h3 {
+    font-size: 18px;
+}
+
+.prod-price {
+    color: #db5353;
+    font-weight: bold;
+    margin: 5px 0 15px;
+}
+
+    .prod-price:before {
+        content: "\20B1";
+    }
+
+.prod-rating {
+    color: #444;
+    margin-left: 2px;
+    font-size: 14px;
+    position: relative;
+    top: -1px;
+}
+
+    .prod-rating i.glyphicon {
+        cursor: pointer;
+        margin-left: 3px;
+    }
+
+.prod-rating-number {
+    position: relative;
+    top: -2px;
+    margin-left: 3px;
+    font-size: 11px;
+    color: #555;
+}
+
+.prod-img {
+    border: 1px solid #ddd;
+}
+
+.thumb {
+    height: 220px;
+    overflow: hidden;
+}
+
+    .thumb img {
+        max-width: 100%;
+        max-height: 100%;
+        opacity: .9;
+        transition: all 0.3s ease-in-out;
+        display: block;
+        margin: auto;
+    }
+
+    .thumb:hover img {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+.prod-text {
+    border-top: 1px solid #ddd;
+    padding: 20px 10px;
+    background-color: #ffd1dc;
+    color: white;
+    font-family: arial;
+}
+
+    .prod-text > h3 {
+        font-size: 20px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+h2.fpr {
+    margin: 0 0 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 24px;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer {
+    background: #0277bd;
+    padding: 30px 0;
+    color: #f9f9f9;
+}
+
+    #footer h2 {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 10px 0 20px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ccc;
+    }
+
+.bottom-social i {
+    border: 1px solid #ccc;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+#footer p {
+    line-height: 25px;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer-credits {
+    background: #000;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+
+#footer-nav-link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    #footer-nav-link li, #footer-nav-link li a {
+        display: block;
+    }
+
+    #footer-nav-link li {
+        float: left;
+    }
+
+        #footer-nav-link li a {
+            padding: 15px 10px;
+            text-decoration: none;
+            color: #0277bd;
+        }
+
+.mgb50 {
+    margin-bottom: 50px
+}
+
+#timer {
+    background-color: #ffd1dc
+}
+
+#timercountdown {
+    background-color: #fff;
+}
+
+.hms {
+    background-color: white;
+    color: gray;
+}
+
+.btn {
+    background-color: white;
+    color: pink;
+}
+
+    .btn:hover {
+        background-color: pink;
+        color: white;
+    }
+
+.modal-open .modal, a:focus {
+    outline: none !important
+}
+
+.modal-dialog {
+    position: absolute;
+    left: 50%;
+    /* now you must set a margin left under zero - value is a half width your window */
+    margin-left: -312px;
+    /* this same situation is with height - example */
+    height: 500px;
+    top: 50%;
+    margin-top: -150px;
+}
+
+.imgheader {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    padding-bottom: 30%
+}
+
+#logo {
+    max-height: 50px;
+    margin-right: 10px;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+.modal img {
+    display: inline
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#what {
+    padding: 5px 3px;
+    font-size: 10px;
+    border-radius: 10px;
+    float: right;
+}
+
+.modal-header {
+    background-color: #ffd1dc;
+    color: white;
+}
+
+
+
+
+
+
+/* MORE CSS*/
+
+.span4 img {
+    margin-right: 10px;
+}
+
+.span4 .img-left {
+    float: left;
+}
+
+.span4 .img-right {
+    float: right;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+p {
+    color: white;
+}
